@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="43be25c9-2e30-4576-bbfe-ee1c6711233f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/resources/addCus-res.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/addCus-res.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/auth-res.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/auth-res.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/suite1/addCustomer.robot" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/suite1/addCustomer.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/suite1/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/suite1/login.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/auth-res.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="-87">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -25,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/addCus-res.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="303">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -40,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/suite1/login.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#288#0" expanded="true" />
               </folding>
@@ -49,14 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/suite1/addCustomer.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#225#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -66,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Robot Test Suite" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -80,11 +79,12 @@
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/testcases/suite1/invalid_login.robot" />
         <option value="$PROJECT_DIR$/resources/resources.robot" />
-        <option value="$PROJECT_DIR$/testcases/suite1/login.robot" />
-        <option value="$PROJECT_DIR$/resources/auth-res.robot" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/resources/addCus-res.robot" />
+        <option value="$PROJECT_DIR$/l ibs/e-xcelhandle.py" />
         <option value="$PROJECT_DIR$/testcases/suite1/addCustomer.robot" />
+        <option value="$PROJECT_DIR$/resources/auth-res.robot" />
+        <option value="$PROJECT_DIR$/testcases/suite1/login.robot" />
+        <option value="$PROJECT_DIR$/resources/addCus-res.robot" />
       </list>
     </option>
   </component>
@@ -200,9 +200,6 @@
     <entry file="file://$PROJECT_DIR$/selenium-screenshot-7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-screenshot-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -220,45 +217,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-screenshot-4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/l ibs/e-xcelhandle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-screenshot-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-screenshot-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium-screenshot-3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/auth-res.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/suite1/addCustomer.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcases/suite1/login.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#288#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/auth-res.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/addCus-res.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="58" selection-start-line="58" selection-end-line="58" selection-end-column="45" />
+        <state relative-caret-position="303">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium-screenshot-2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/suite1/addCustomer.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#225#0" expanded="true" />
           </folding>
         </state>
       </provider>

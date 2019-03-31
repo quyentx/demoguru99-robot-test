@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation  This file prepares resources for the test suite
 Library           SeleniumLibrary
 
 *** Variables ***
