@@ -2,7 +2,7 @@
 Library           SeleniumLibrary
 
 *** Variables ***
-${DOB}      //input[@id='dob']
+#${DOB}      //input[@id='dob']
 ${DOB_VALUE}        01011990
 ${CUSTOMER_NAME}        Tran Huy Hoang
 ${ADDRESS}      Intracom
@@ -21,18 +21,9 @@ Input customer name
     [Arguments]    ${customer_name}
     Input Text      //input[@name='name']       ${customer_name}
 
-Set focus on
-    [Arguments]     ${element}
-    Click Element        ${element}
-
-Input day of birth
-    [Arguments]     ${day_of_birth}
-    Input Text      //input[@id='dob']      ${day_of_birth}
-
 Input Date-of-birth
-    [Arguments]     ${DOB}  ${DOB_VALUE}
-    Set focus on    ${DOB}
-    Input day of birth  ${DOB_VALUE}
+    [Arguments]      ${dob_value}
+    Input Text      //input[@id='dob']      ${dob_value}
 
 Input address
     [Arguments]    ${address}

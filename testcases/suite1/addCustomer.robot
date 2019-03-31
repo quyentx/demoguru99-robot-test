@@ -10,7 +10,7 @@ Suite Teardown  Close Browser
 Add customer successfully
     Open form to add new customer
     Input customer name     ${CUSTOMER_NAME}
-    Input Date-of-birth     ${DOB}      ${DOB_VALUE}
+    Input Date-of-birth      ${DOB_VALUE}
     Input address  ${ADDRESS}
     Input city  ${CITY}
     Input PIN  ${PIN}
