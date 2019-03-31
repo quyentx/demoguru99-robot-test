@@ -18,3 +18,4 @@ Add customer successfully
     Input email address  ${EMAIL_ADDR}
     Input customer password  ${PASSWD}
     Submit register form
+    Customer information page should be displayed

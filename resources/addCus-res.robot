@@ -55,3 +55,6 @@ Input customer password
 
 Submit register form
     Click Button        //input[@value='Submit']
+
+Customer information page should be displayed
+    Element Should Contain     //p[@class='heading3']      Customer Registered Successfully!!!
