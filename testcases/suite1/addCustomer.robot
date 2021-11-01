@@ -18,12 +18,13 @@ Add customer successfull
     Input phone number  ${PHONE_NO}
     Input email address  ${EMAIL_ADDR}
     Input customer password  ${PASSWD}
+    Submit register form
     Customer information page should be displayed
 
 Add customer with dob to be missing
     Open form to add new customer
     Input customer name     ${CUSTOMER_NAME}
-    Set focus on    ${xpath.customerDOB}
+    Set focus on    ${css.customerDOB}
     Input address  ${ADDRESS}
     Input city  ${CITY}
     Input state  ${STATE}
@@ -48,7 +49,7 @@ Add customer with name to be missing
 Add customer with address to be missing
     Open form to add new customer
     Input customer name     ${CUSTOMER_NAME}
-    Set focus on   ${xpath.customerAddress}
+    Set focus on   ${name.customerAddress}
     Input city  ${CITY}
     Input state  ${STATE}
     Input PIN  ${PIN}

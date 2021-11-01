@@ -1,6 +1,7 @@
-geckodriver.log
+geckodriver*.log
 log.html
 output.xml
 report.html
 selenium-screenshot-*.png
 /venv/
+.idea

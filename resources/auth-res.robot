@@ -3,10 +3,10 @@ Documentation  This file prepares resources for the test suite
 Library           SeleniumLibrary
 
 *** Variables ***
-${BROWSER}        Firefox
-${USER_NAME}     mngr187295
-${ADMIN_PASSWORD}    jetatYb
-${BASE_URL}         http://www.demo.guru99.com
+${BROWSER}        Chrome
+${USER_NAME}     mngr363835
+${ADMIN_PASSWORD}    UnAzeqY
+${BASE_URL}         https://demo.guru99.com
 ${LOGIN_URL}      ${BASE_URL}/v4
 ${HOME_URL}    ${BASE_URL}/v4/manager/Managerhomepage.php
 
