@@ -6,6 +6,8 @@ Library           SeleniumLibrary
 ${BROWSER}        Chrome
 ${USER_NAME}     mngr363835
 ${ADMIN_PASSWORD}    UnAzeqY
+@{LIST_CREDENTIAL}       mngr363835      UnAzeqY
+&{DICT_CREDENTIAL}      username=mngr363835     pass=UnAzeqY
 ${BASE_URL}         https://demo.guru99.com
 ${LOGIN_URL}      ${BASE_URL}/v4
 ${HOME_URL}    ${BASE_URL}/v4/manager/Managerhomepage.php
@@ -25,6 +27,16 @@ Input Username
 Input Password
     [Arguments]    ${password}
     Input Text    //input[@name='password']    ${password}
+
+Input login credentials from list
+    [Arguments]     @{LIST_CREDENTIAL}
+    Input Text      //input[@name='uid']    ${LIST_CREDENTIAL}[0]
+    Input Text      //input[@name='password']       ${LIST_CREDENTIAL}[1]
+
+Input login credentials from dict
+    [Arguments]     &{DICT_CREDENTIAL}
+    Input Text      //input[@name='uid']    ${DICT_CREDENTIAL}[username]
+    Input Text      //input[@name='password']       ${DICT_CREDENTIAL}[pass]
 
 Submit Login Credentials
     Click Button    //input[@value='LOGIN']

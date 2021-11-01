@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43be25c9-2e30-4576-bbfe-ee1c6711233f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/addCus-res.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/addCus-res.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/auth-res.robot" beforeDir="false" afterPath="$PROJECT_DIR$/resources/auth-res.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/suite1/addCustomer.robot" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/suite1/addCustomer.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/suite1/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/suite1/login.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,8 @@
       <option name="presentableId" value="Default" />
       <updated>1553874586594</updated>
       <workItem from="1635741212496" duration="33000" />
-      <workItem from="1635741269139" duration="10942000" />
+      <workItem from="1635741269139" duration="11890000" />
+      <workItem from="1635760888243" duration="2655000" />
     </task>
     <servers />
   </component>
