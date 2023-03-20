@@ -11,11 +11,18 @@ Login successfully standard style using template
     [Template]    Login Template
     mngr486705    yzUdAsY
 
-Login successfully standard style
+Login successfully using credentials from dictionary
     [Tags]    standard
     Open Browser To Login Page
     Input login credentials from dict    &{DICT_CREDENTIAL}
-#   Input login credentials from list       @{LIST_CREDENTIAL}
+    Submit Login Credentials
+    Welcome Page Should Be Open
+    [Teardown]    Close Browser
+
+Login successfully using credentials from list
+    [Tags]    standard
+    Open Browser To Login Page
+    Input login credentials from list       @{LIST_CREDENTIAL}
     Submit Login Credentials
     Welcome Page Should Be Open
     [Teardown]    Close Browser
