@@ -1,15 +1,18 @@
 *** Settings ***
 Documentation     This file implements the login test cases
-Resource          ../../resources/auth-res.robot
+Resource    ../../resources/auth-res.robot
 Library           SeleniumLibrary
+Library    DataDriver    file=data_driver.csv    dialect=unix
+Test Setup    Open Browser To Login Page
+Test Teardown    Close Browser
+Test Template    Login Template
 
 *** Test Cases ***
-Login Successfully
-    Open Browser To Login Page
-    Input Username    ${USER_NAME}
-    Input Password    ${ADMIN_PASSWORD}
-#    Input login credentials from dict    &{DICT_CREDENTIAL}
-#    Input login credentials from list       @{LIST_CREDENTIAL}
-    Submit Login Credentials
-    Welcome Page Should Be Open
-    [Teardown]    Close Browser
+Login successfully using data file ${USER_NAME}    ${USER_NAME}    ${ADMIN_PASSWORD}
+    [Tags]    data_file
+
+*** Keywords ***
+Login Template    [Documentation]    Template for verifying login screen
+    [Arguments]    ${USER_NAME}
+    ...    ${ADMIN_PASSWORD}
+    Login    ${USER_NAME}   ${ADMIN_PASSWORD}

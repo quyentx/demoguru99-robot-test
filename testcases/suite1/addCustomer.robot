@@ -8,6 +8,7 @@ Suite Teardown  Close Browser
 
 *** Test Cases ***
 Add customer successfull
+    [Tags]    customer
     Open form to add new customer
     Input customer name     ${CUSTOMER_NAME}
     Input Date-of-birth   ${DOB_VALUE}
@@ -22,6 +23,7 @@ Add customer successfull
     Customer information page should be displayed
 
 Add customer with dob to be missing
+    [Tags]    customer
     Open form to add new customer
     Input customer name     ${CUSTOMER_NAME}
     Set focus on    ${css.customerDOB}
@@ -35,6 +37,7 @@ Add customer with dob to be missing
     DOB field data validation message should be displayed
 
 Add customer with name to be missing
+    [Tags]    customer
     Open form to add new customer
     Set focus on    ${xpath.customerName}
     Input address  ${ADDRESS}

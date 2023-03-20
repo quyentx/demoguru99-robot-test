@@ -4,10 +4,10 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${BROWSER}        Chrome
-${USER_NAME}     mngr363835
-${ADMIN_PASSWORD}    UnAzeqY
-@{LIST_CREDENTIAL}       mngr363835      UnAzeqY
-&{DICT_CREDENTIAL}      username=mngr363835     pass=UnAzeqY
+${USER_NAME}     mngr486705
+${ADMIN_PASSWORD}    yzUdAsY
+@{LIST_CREDENTIAL}       mngr486706      AvYneby
+&{DICT_CREDENTIAL}      username=mngr486706     pass=AvYneby
 ${BASE_URL}         https://demo.guru99.com
 ${LOGIN_URL}      ${BASE_URL}/v4
 ${HOME_URL}    ${BASE_URL}/v4/manager/Managerhomepage.php
@@ -47,6 +47,12 @@ Welcome Page Should Be Open
 
 Login Successfully
     Open Browser To Login Page
+    Input Username    ${USER_NAME}
+    Input Password    ${ADMIN_PASSWORD}
+    Submit Login Credentials
+
+Login
+    [Arguments]    ${USER_NAME}    ${ADMIN_PASSWORD}
     Input Username    ${USER_NAME}
     Input Password    ${ADMIN_PASSWORD}
     Submit Login Credentials
